@@ -1,3 +1,5 @@
+import './Item.css'
+
 export default function item(props) {
   const {id,title,description} = props
   return (
@@ -7,7 +9,6 @@ export default function item(props) {
         <button>show</button>
       </div>
         <p>{description}</p>
-        <hr/>
     </section>
   );
 }
